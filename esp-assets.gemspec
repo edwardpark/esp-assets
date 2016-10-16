@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Eddie Park"]
   spec.email         = ["eddie.park@id.me"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Shared assets between ESP applications}
+  spec.description   = %q{Shared assets between ESP applications}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -30,4 +30,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.11"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rails", "~> 4.2"
+  spec.add_development_dependency "railties","~> 4.2"
 end
