@@ -6,5 +6,9 @@ module Esp
     def self.hail
     	"hail hydra  (ʘ‿ʘ✿)" 
     end 
+
+    def self.hulk
+    	"(┛◉Д◉)┛彡┻━┻ HULK SMASH"
+    end 
   end
 end
